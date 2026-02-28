@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Header } from "./Header";
+import { Navbar } from "./Navbar";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <div className="div">
+      <Navbar />
       <Header />
     </div>
   );
